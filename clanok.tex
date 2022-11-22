@@ -1,0 +1,89 @@
+\documentclass[10pt,oneside,slovak,a4paper]{article}
+
+\usepackage[slovak]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[IL2]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{times}
+\usepackage{url} %odkazy
+\usepackage{hyperref} %prekliky v dokumente
+\usepackage{cite} %citácie
+\usepackage{verbatim} %viacriadkové komentáre
+\usepackage{float} %pozicia tabulky
+\usepackage{footnote} %legenda
+\usepackage{tablefootnote} %legenda ku tabulke
+\usepackage[square,numbers]{natbib} %číslovanie zdrojov
+\usepackage{breakurl} %zalomenie linkov v literatúre
+\setcitestyle{numbers} %číslovanie zdrojov
+\pagestyle{plain} %jednoduché číslovanie strán
+\def\UrlBreaks{\do\/\do-} %zalomenie linkov v literatúre
+
+\title{\textbf{Využitie hier a programov virtuálnej reality ako didaktickej pomôcky v školstve}} 
+\author{
+	Oliver Krížovský\\[2pt]
+	{\small Slovenská technická univerzita v Bratislave}\\
+	{\small Fakulta informatiky a informačných technológií}\\
+	{\small \texttt{xkrizovsky@stuba.sk}}\\
+	{\small Semestrálny projekt v predmete Metódy inžinierskej práce, zimný semester 2022}\\
+	{\small Ing.  Fedor Lehocki,  PhD.}\\
+}
+\date{\small 6. November 2022}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+\input{abstrakt.tex}
+\end{abstract}
+\begin{center}
+\emph{Kľúčové slová : Virtuálna realita, VR headsety, didaktické pomôcky, výučba pomocou technológií}
+\end{center}
+\section{Úvod}\label{uvod}
+\input{uvod.tex}
+\section{Objasnenie problémov}\label{objasnenie}
+\input{objasnenie.tex}
+\input{tabulka.tex}
+\footnotetext[1]{Použiteľné iba s výkonným PC}
+\footnotetext[2]{Použiteľné iba s mobilným telefónom}
+\section{Možné riešenia}\label{riesenia}
+\subsection{Vlastné riešenie}\label{riesenia:1}
+\subsection{Riešenie iných}\label{riesenia:2}
+\section{Diskusia}\label{diskusia}
+\subsection{Výhody}\label{diskusia:1}
+\subsection{Nevýhody}\label{diskusia:2}
+\section{Výsledky riešenia}\label{vysledky}
+\section{Zhodnotenie}\label{zhodnotenie}
+\section{Záver}\label{zaver}
+
+\bibliography{literatura}
+\bibliographystyle{unsrt} %číslovanie bibliografie podľa výskytu v texte
+\end{document}
+
+\begin{comment}
+~\ref{zaver}
+~\cite{PLP-Framework}
+\emph{zdôrazniť kurzívou}
+\ldots{}
+\footnote{Niekedy môžete potrebovať aj poznámku pod čiarou.}
+
+\begin{itemize}
+\item jedna vec
+\item druhá vec
+	\begin{itemize}
+	\item x
+	\item y
+	\end{itemize}
+\end{itemize}
+
+\begin{enumerate}
+\item jedna vec
+\item druhá vec
+	\begin{enumerate}
+	\item x
+	\item y
+	\end{enumerate}
+\end{enumerate}
+
+\paragraph{Veľmi dôležitá poznámka.}
+Niekedy je potrebné nadpisom označiť odsek. Text pokračuje hneď za nadpisom.
+\end{comment}
