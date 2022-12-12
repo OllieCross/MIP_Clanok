@@ -6,6 +6,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \usepackage{times}
+\usepackage{pdfpages} %import pdf
 \usepackage{url} %odkazy
 \usepackage{hyperref} %prekliky v dokumente
 \usepackage{cite} %citácie
@@ -43,17 +44,33 @@
 \section{Objasnenie problémov}\label{objasnenie}
 \input{objasnenie.tex}
 \input{tabulka.tex}
-\footnotetext[1]{Použiteľné iba s výkonným PC}
-\footnotetext[2]{Použiteľné iba s mobilným telefónom}
+\footnotetext[1]{Použiteľné iba s hernou konzolou}
+\footnotetext[2]{Použiteľné iba s výkonným PC}
+\footnotetext[3]{Použiteľné iba s mobilným telefónom}
 \section{Možné riešenia}\label{riesenia}
 \subsection{Vlastné riešenie}\label{riesenia:1}
-\subsection{Riešenie iných}\label{riesenia:2}
+\input{vlastne_riesenie.tex}
+\subsection{Riešenie podľa článku}\label{riesenia:2}
+\input{riesenie_clankov.tex}
+\begin{figure}[!b]
+	\begin{center}
+	\includegraphics[scale=0.4]{diagram.pdf}
+	\caption{Diagram procesu testovania}
+	\end{center}
+\end{figure}
 \section{Diskusia}\label{diskusia}
 \subsection{Výhody}\label{diskusia:1}
+\input{vyhody.tex}
 \subsection{Nevýhody}\label{diskusia:2}
-\section{Výsledky riešenia}\label{vysledky}
-\section{Zhodnotenie}\label{zhodnotenie}
+\input{nevyhody.tex}
+\section{Zistenia a Výsledky}\label{zistenia_vysledky}
+\subsection{Zistenia}\label{zistenia}
+\subsection{Výsledky}\label{vysledky}
 \section{Záver}\label{zaver}
+\section{Zareagovanie na témy prednášok}\label{reakcia}
+\subsection{Spoločenské Súvislosti}\label{reakcia:1}
+\subsection{Historické Súvislosti}\label{reakcia:2}
+\subsection{Technológia a Ľudia}\label{reakcia:3}
 
 \bibliography{literatura}
 \bibliographystyle{unsrt} %číslovanie bibliografie podľa výskytu v texte

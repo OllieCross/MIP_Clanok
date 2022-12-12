@@ -3,44 +3,44 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: clanok.aux
 The style file: unsrt.bst
 Database file #1: literatura.bib
-You've used 4 entries,
+You've used 6 entries,
             1791 wiz_defined-function locations,
-            474 strings with 4384 characters,
-and the built_in function-call counts, 875 in all, are:
-= -- 82
-> -- 21
-< -- 2
-+ -- 9
-- -- 5
-* -- 35
-:= -- 114
-add.period$ -- 10
-call.type$ -- 4
-change.case$ -- 4
+            489 strings with 4909 characters,
+and the built_in function-call counts, 1306 in all, are:
+= -- 117
+> -- 46
+< -- 3
++ -- 18
+- -- 12
+* -- 58
+:= -- 186
+add.period$ -- 16
+call.type$ -- 6
+change.case$ -- 6
 chr.to.int$ -- 0
-cite$ -- 4
-duplicate$ -- 46
-empty$ -- 95
-format.name$ -- 5
-if$ -- 219
+cite$ -- 6
+duplicate$ -- 68
+empty$ -- 132
+format.name$ -- 12
+if$ -- 318
 int.to.chr$ -- 0
-int.to.str$ -- 4
-missing$ -- 2
-newline$ -- 21
-num.names$ -- 2
-pop$ -- 18
+int.to.str$ -- 6
+missing$ -- 4
+newline$ -- 31
+num.names$ -- 4
+pop$ -- 24
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 43
+skip$ -- 56
 stack$ -- 0
-substring$ -- 56
-swap$ -- 22
-text.length$ -- 2
+substring$ -- 68
+swap$ -- 29
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 6
-width$ -- 5
-write$ -- 38
+while$ -- 10
+width$ -- 7
+write$ -- 59
